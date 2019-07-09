@@ -1,89 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!-- Start Title-->
-        <title>Belajar Bikin Web</title>
-        <!-- End Title-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Start Title -->
+    <title>Belajar Bikin Web buat Emak-emak</title>
+    <!-- End Title -->
 
-        <!-- Start Description-->
-        <meta type="description" content="Belajar Bikin Web Buat Emak-emak">
-        <!-- End Description-->
-   
-    </head>
-    <body>
-        <!-- Start Logo-->
-        <a href="index.html" title="Logo Toko">
-           <img src="images/buku.jpg" width="150" alt="Logo Toko">
+    <!-- Start Description -->
+    <meta name="description" content="Belajar Bikin Web Toko GHAIDA">
+    <!-- End Description -->
+
+    <!-- Start CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- End CSS -->
+</head>
+<body>
+    <!-- Start Logo -->
+    <div class="container logo">
+        <a href="index.html" title="Toko GHAIDA">
+            <img src="images/logotoko.png" alt="Logo Toko GHAIDA" width="300">
         </a>
-        <!-- End Logo-->
+    </div>
+    <!-- End Logo -->
 
-        <!-- Start Menu Primer -->
+    <!-- Start Menu Primer -->
+    <div class="container menu-primer">
         <ul>
-            <li><a href="index.html" title="">Beranda</a>
-            </li>
-            <li><a href="tentang.html" title="">Tentang Kami</a>
-            </li>
-            <li><a href="layanan.html" title="">Layanan</a>
-            </li>
-            <li><a href="artikel.html" title="">Artikel</a>
-            </li>
-            <li><a href="pembayaran.html" title="">Cara Pembayaran</a>
-            </li>
-            <li><a href="pertanyaan.html" title="">Pertanyaan</a>
-            </li>
-            <li><a href="kontak.html" title="">Kontak Kami</a>
-            </li>
+            <li><a href="index.html" title="Beranda" class="active">Beranda</a></li>
+            <li><a href="tentang.html" title="Tentang Kami">Tentang Kami</a></li>
+            <li><a href="produk.html" title="Produk">Produk</a></li>
+            <li><a href="artikel.html" title="Artikel">Artikel</a></li>
+            <li><a href="pembayaran.html" title="Cara Pembayaran">Cara Pembayaran</a></li>
+            <li><a href="pertanyaan.html" title="Pertanyaan yang sering diajukan">Pertanyaan</a></li>
+            <li><a href="kontak.html" title="Kontak Kami">Kontak Kami</a></li>
         </ul>
-        <!-- End Menu Primer -->
-        
-        <!--Start Jumbotron-->
-            <h1>Selamat Datang di Toko GHAIDA</h1>
-            <h3>Menyediakan Buku-buku bermutu</h3>
-        <!--End Jumbotron-->
+    </div>
+    <!-- End Menu Primer -->
 
-        <!--Start Menu Sekunder-->
-            <h4>Toko GHAIDA</h4>
-            <p>Menyediakan Buku-buku Bermutu</p>
-            <p>Email: <a href="mailto:bunda.tghaida@gmail.com" title="bunda.tghaida@gmail.com">bunda.tghaida@gmail.com</a></p>
-            <p>Telp/WA: <a href="+628127618602" title="">+628127618602</a></p>
+    <!-- Start Jumbotron -->
+    <div class="container jumbotron">
+        <h1>Selamat datang di Toko GHAIDA Online</h1>
+        <h3>Toko GHAIDA, Jl. Sei Mintan No. 82 Air Dingin, Pekanbaru</h3>
+    </div>
+    <!-- End Jumbotron -->
 
-            <h4>Menu</h4>
-            <ul>
-                <li><a href="index.html" title="">Beranda</a>
-                </li>
-                <li><a href="tentang.html" title="">Tentang Kami</a>
-                </li>
-                <li><a href="layanan.html" title="">Layanan</a>
-                </li>
-                <li><a href="artikel.html" title="">Artikel</a>
-                </li>
-                <li><a href="pembayaran.html" title="">Cara Pembayaran</a>
-                </li>
-                <li><a href="pertanyaan.html" title="">Pertanyaan</a>
-                </li>
-                <li><a href="kontak.html" title="">Kontak Kami</a>
-                </li>
-            </ul>
+    <!-- Start Promo dan produk -->
+    <div class="container">
 
-            <h4>Media Sosial</h4>
-            <ul>
-                <li><a href="https://facebook.com" title="Facebook TokoGHAIDA">
-                        <img src="images/logo.png" alt="Logo Facebook"> Facebook TokoGHAIDA
-                    </a>
-                </li>
-            </ul>
+        <!-- Start Promo -->
+        <div class="main-home-one">
+            <div class="box-heading">
+                <h4>Promo</h4>
+            </div>
+            <div class="box-isi">
+                <ul>
+                    <li>[Bulan ini] Dapatkan discount Produk Qirani up to 50%</li>
+                    <li>[Tahun ini] Gratis ongkir untuk pembelian diatas Rp. 500.000,-</li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Promo -->
 
+        <!-- Start produk -->
+        <div class="main-home-two">
+            <div class="box-heading">
+                <h4>Produk</h4>
+            </div>
+            <div class="box-isi">
+                <ol>
+                    <li><a href="produk.html" title="Buku">Logo Design</a></li>
+                    <li><a href="produk.html" title="Produk Herbal">Web Design</a></li>
+                    <li><a href="produk.html" title="Frozen Food">Web Development</a></li>
+                    <li><a href="produk.html" title="Busana Muslim">Web Content</a></li>
+                </ol>
+            </div>
+        </div>
+        <!-- End produk -->
 
+    </div>
+    <!-- End Promo dan produk -->
 
-        <!--End Menu Sekunder-->
-    <!--Start Copyright-->
-    <p>Copyright &copy; 2019</p>
-    <!--End Copyright-->
+    <!-- Start Artikel dan Testimonial -->
+    <div class="container">
 
-<!-- Whatsapp -->
+        <!-- Start Artikel -->
+        <div class="main-home-one">
+            <div class="box-heading">
+                <h4>Artikel</h4>
+            </div>
+            <div class="box-isi">
+                <ol>
+                    <li><a href="#" title="1000 km">1000 km</a></li>
+                    <li><a href="#" title="guru">Guru</a></li>
+                    <li><a href="#" title="seminggu belajar bikin website">Seminggu belajar bikin website</a></li>
+                </ol>
+            </div>
+        </div>
+        <!-- End Artikel -->
+
+        <!-- Start Testimonial -->
+        <div class="main-home-two">
+            <div class="box-heading">
+                <h4>Testimonial</h4>
+            </div>
+            <div class="box-isi">
+                <blockquote class="testimonial">
+                    <p><em>Sudah sering belanja di Toko GHAIDA, Saya puas!</em></p>
+                    <cite>-- Klien</cite>
+                </blockquote>
+            </div>
+        </div>
+        <!-- End Testimonial -->
+
+    </div>
+    <!-- End Artikel dan Testimonial -->
+
+    <!-- Start Menu Sekunder -->
+    <div class="container-full menu-sekunder">
+        <div class="container">
+            <div class="menu-sekunder-one">
+                <h4>Toko GHAIDA</h4>
+                <p>Toko GHAIDA menyediakan buku, jilbab dan perlengkapan haji<br> HARGA terjangkau dan berkualitas.</p>
+                <p>Email: <a href="mailto:bunda.tghaida@gmail.com" title="bunda.tghaida@gmail.com">bunda.tghaida@gmail.com</a></p>
+                <p>WA: <a href="tel:+62-123-456-789" title="+62-123-456-789">+62-123-456-789</a></p>
+            </div>
+            <div class="menu-sekunder-two">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="index.html" title="Beranda">Beranda</a></li>
+                    <li><a href="tentang.html" title="Tentang Kami">Tentang Kami</a></li>
+                    <li><a href="produk.html" title="Produk">Produk</a></li>
+                    <li><a href="artikel.html" title="Artikel">Artikel</a></li>
+                    <li><a href="pembayaran.html" title="Cara Pembayaran">Cara Pembayaran</a></li>
+                    <li><a href="pertanyaan.html" title="Pertanyaan yang sering diajukan">Pertanyaan</a></li>
+                    <li><a href="kontak.html" title="Kontak Kami">Kontak Kami</a></li>
+                </ul>
+            </div>
+            <div class="menu-sekunder-three">
+                <h4>Media Sosial</h4>
+                <ul>
+                    <li><a href="https://facebook.com/" title="Facebook - Toko GHAIDA" target="_blank">
+                        <img src="images/logo-facebook.png" alt="Logo Facebook">
+                        Facebook: Toko GHAIDA
+                    </a></li>
+                    <li><a href="https://instagram.com/" title="Instagram - Toko GHAIDA" target="_blank">
+                        <img src="images/logo-instagram.png" alt="Logo Instagram">
+                        Instagram: Toko GHAIDA
+                    </a></li>
+                    <li><a href="https://twitter.com/" title="Twitter - Toko GHAIDA" target="_blank">
+                        <img src="images/logo-twitter.png" alt="Logo Twitter">
+                        Twitter: Toko GHAIDA
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Menu Sekunder -->
+    
+    <!-- Start Copyright -->
+    <div class="container copyright">
+        <p>Copyright &copy; 2019 - Toko GHAIDA</p>
+    </div>
+    <!-- End Copyright -->
+    <!-- Whatsapp -->
     <script type="text/javascript">
         (function () {
             var options = {
@@ -98,6 +180,5 @@
         })();
     </script>
     <!-- Whastapp -->
-
-    </body>
+</body>
 </html>
